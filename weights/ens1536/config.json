@@ -1,0 +1,28 @@
+{
+  "runs": [
+    [
+      "crop1536_effv2s/fold0",
+      "crop1536_effv2s/fold1",
+      "crop1536_effv2s/fold2",
+      "crop1536_effv2s/fold3",
+      "crop1536_effv2s/fold4"
+    ],
+    [
+      "effv2m_c1536b/fold0",
+      "effv2m_c1536b/fold1",
+      "effv2m_c1536b/fold2",
+      "effv2m_c1536b/fold3",
+      "effv2m_c1536b/fold4"
+    ]
+  ],
+  "cut": 0.24,
+  "link_thr": 0.15,
+  "tta": 2,
+  "cnn": [
+    "cnn_selector/seed0.pt",
+    "cnn_selector/seed1.pt",
+    "cnn_selector/seed2.pt"
+  ],
+  "cnn_mix": 0.5,
+  "cnn_cut": 0.25
+}

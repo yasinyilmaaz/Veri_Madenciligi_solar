@@ -1,0 +1,16 @@
+# competition data and external datasets (not redistributed)
+MAGFiLO_1.0_Kaggle_2026/
+external/
+docs/official/
+# large outputs: models, probability maps, logs
+outputs/
+viz/
+.venv/
+__pycache__/
+*.pyc
+*.zip
+.env
+.env.*
+
+# generated submission
+submission.csv
